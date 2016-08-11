@@ -19,7 +19,7 @@ func (this *AController) Haha() {
 		this.Data["json"] = 1
 	} else {
 		this.SetSession("mySession", s.(int)+1)
-		this.Data["json"] = s.(int)
+		this.Data["json"] = s.(int) + 1
 	}
 	this.ServeJSON()
 
@@ -28,6 +28,7 @@ func (this *AController) Haha() {
 // @router /a/:id:int [post]
 func (this *AController) Hehe() {
 	this.Data["json"] = this.Ctx.Input.Param(":id")
+	this.Abort("Hh")
 	//	var s string = this.GetString("my")
 	//	fmt.Println(s)
 

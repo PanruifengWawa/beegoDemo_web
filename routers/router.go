@@ -2,13 +2,13 @@ package routers
 
 import (
 	//	"fmt"
-	"quickstart/controllers"
+	"beegoWeb/controllers"
 
 	"github.com/astaxie/beego"
 
 	"github.com/astaxie/beego/context"
 
-	"quickstart/filters"
+	"beegoWeb/filters"
 )
 
 func init() {
@@ -67,4 +67,7 @@ func init() {
 	//filter /api/my/* with function 'MyFilter' in package filters
 
 	beego.Router("/flashTest", &controllers.FlashController{}, "post:Post;get:Get")
+	beego.Router("/validate", &controllers.ValidateController{}, "post:Hehe;get:Haha")
+
+	//	beego.Router("/errors", &controllers.ErrorController{})
 }
