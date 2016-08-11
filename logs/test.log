@@ -1,0 +1,40 @@
+2016/07/28 16:30:49 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:30:56 [router.go:829][D] | GET        | /                                        | 28.060754ms      | match      | /                                        | 
+2016/07/28 16:32:21 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:33:35 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:33:59 [validateController.go:18][I] hhaha 
+2016/07/28 16:35:08 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:35:11 [validateController.go:18][I] hhaha 
+2016/07/28 16:35:21 [router.go:829][D] | GET        | /                                        | 25.01407ms       | match      | /                                        | 
+2016/07/28 16:35:59 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:36:07 [validateController.go:23][I] hhaha 
+2016/07/28 16:36:07 [router.go:829][D] | POST       | /validate                                | 615.843µs        | match      | /validate                                | 
+2016/07/28 16:38:33 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:38:34 [validateController.go:23][D] hhaha 
+2016/07/28 16:38:34 [router.go:829][D] | POST       | /validate                                | 525.341µs        | match      | /validate                                | 
+2016/07/28 16:41:13 [asm_386.s:2287][I] http server Running on :8081
+2016/07/28 16:41:18 [validateController.go:23][D] hhaha 
+2016/07/28 16:41:18 [router.go:829][D] | POST       | /validate                                | 570.666µs        | match      | /validate                                | 
+2016/07/28 16:41:38 [validateController.go:23][D] hhaha 
+2016/07/28 16:41:38 [router.go:829][D] | POST       | /validate                                | 431.295µs        | match      | /validate                                | 
+2016/08/11 14:56:11 [asm_386.s:2287][I] http server Running on :8081
+2016/08/11 14:56:29 [router.go:829][D] | GET        | /apiA/my                                 | 584.334µs        | notmatch   | 
+2016/08/11 14:56:29 [router.go:829][D] | GET        | /                                        | 29.91943ms       | match      | /                                        | 
+2016/08/11 14:56:43 [router.go:829][D] | GET        | /apiA/my/a                               | 177.619µs        | notmatch   | 
+2016/08/11 14:56:43 [router.go:829][D] | GET        | /                                        | 28.461986ms      | match      | /                                        | 
+2016/08/11 14:56:52 [router.go:829][D] | GET        | /apiA/my/a/1                             | 245.724µs        | notmatch   | 
+2016/08/11 14:56:52 [router.go:829][D] | GET        | /                                        | 26.503344ms      | match      | /                                        | 
+2016/08/11 14:57:38 [router.go:829][D] | GET        | /apiA/my/a/1                             | 178.247µs        | notmatch   | 
+2016/08/11 14:57:38 [router.go:829][D] | GET        | /                                        | 26.315834ms      | match      | /                                        | 
+2016/08/11 14:58:11 [router.go:829][D] | GET        | /apiA/my/a/1                             | 805.31µs         | notmatch   | 
+2016/08/11 14:58:11 [router.go:829][D] | GET        | /                                        | 29.209845ms      | match      | /                                        | 
+2016/08/11 14:58:34 [router.go:829][D] | GET        | /apiA                                    | 453.925µs        | notmatch   | 
+2016/08/11 14:59:00 [router.go:829][D] | GET        | /apiA/my                                 | 239.253µs        | notmatch   | 
+2016/08/11 14:59:00 [router.go:829][D] | GET        | /                                        | 26.151861ms      | match      | /                                        | 
+2016/08/11 14:59:30 [router.go:829][D] | GET        | /apiA/my/a/1                             | 185.685µs        | notmatch   | 
+2016/08/11 14:59:30 [router.go:829][D] | GET        | /                                        | 26.343966ms      | match      | /                                        | 
+2016/08/11 15:00:53 [router.go:829][D] | GET        | /apiA/my/a/1                             | 223.618µs        | match      | /apiA/my/a/:id                           | 
+2016/08/11 15:01:01 [router.go:829][D] | GET        | /apiA/my/a/1                             | 268.773µs        | match      | /apiA/my/a/:id                           | 
+2016/08/11 15:01:01 [router.go:829][D] | GET        | /apiA/my/a/1                             | 220.545µs        | match      | /apiA/my/a/:id                           | 
+2016/08/11 15:01:12 [asm_386.s:2287][I] http server Running on :8081
+2016/08/11 15:01:52 [asm_386.s:2287][I] http server Running on :8081
